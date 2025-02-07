@@ -20,7 +20,7 @@ var helpers = require('./lib/helpers')
 var cookies = require('./lib/cookies')
 var getProxyFromURI = require('./lib/getProxyFromURI')
 var Querystring = require('./lib/querystring').Querystring
-var Har = require('./lib/har').Har
+// var Har = require('./lib/har').Har
 var Auth = require('./lib/auth').Auth
 var OAuth = require('./lib/oauth').OAuth
 var hawk = require('./lib/hawk')
@@ -101,10 +101,10 @@ function Request (options) {
   var self = this
 
   // start with HAR, then override with additional options
-  if (options.har) {
-    self._har = new Har(self)
-    options = self._har.options(options)
-  }
+  // if (options.har) {
+  //   self._har = new Har(self)
+  //   options = self._har.options(options)
+  // }
 
   stream.Stream.call(self)
   var reserved = Object.keys(Request.prototype)
