@@ -1,6 +1,6 @@
 {
   "name": "cos-request",
-  "description": "A Simplified HTTP request client.",
+  "description": "Simplified HTTP request client.",
   "keywords": [
     "http",
     "simple",
