@@ -1,13 +1,13 @@
 {
-  "name": "cos-nodejs-sdk-request",
-  "description": "A Forked Simplified HTTP request client.",
+  "name": "cos-request",
+  "description": "A Simplified HTTP request client.",
   "keywords": [
     "http",
     "simple",
     "util",
     "utility"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "Apache-2.0",
   "engines": {
     "node": ">= 8"
